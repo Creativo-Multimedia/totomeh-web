@@ -1,4 +1,4 @@
 Run SASS
 ```sh
-sass --watch scss/main.scss css/main.css
+sass --watch styles/main.scss css/main.css
 ```
