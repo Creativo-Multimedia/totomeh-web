@@ -17,17 +17,8 @@ body {
   font-family: $primary-font;
   color: $color-text;
   background-color: $light-bg;
-}
-
-a {
-  text-decoration: none;
-  color: $primary-color;
-
-  &:hover,
-  &:active,
-  &:visited {
-    color: darken($color: $primary-color, $amount: 10);
-  }
+  line-height: 26px;
+  letter-spacing: 0.3px;
 }
 
 section {
@@ -74,8 +65,23 @@ h6 {
   font-size: 18px;
 }
 
+p {
+  font-size: 14px;
+}
+
 small {
   font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+
+  &:hover,
+  &:active,
+  &:visited {
+    color: darken($color: $primary-color, $amount: 10);
+  }
 }
 
 // Buttons -------------------------------------------------------------------------------------------
