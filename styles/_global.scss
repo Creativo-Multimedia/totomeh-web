@@ -1,31 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: $main-transition;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: $main-transition;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 ::selection {
-    background-color: #d8222881;
+  background-color: #d8222881;
 }
 
 body {
-    font-family: $primary-font;
-    color: $color-text;
-    background-color: $light-bg;
+  font-family: $primary-font;
+  color: $color-text;
+  background-color: $light-bg;
 }
 
 a {
-    text-decoration: none;
-    color: $primary-color;
+  text-decoration: none;
+  color: $primary-color;
+
+  &:hover,
+  &:active,
+  &:visited {
+    color: darken($color: $primary-color, $amount: 10);
+  }
 }
 
 section {
-    padding: 70px 0;
+  padding: 70px 0;
 }
 
 // Texts -------------------------------------------------------------------------------------------
@@ -47,6 +53,7 @@ h1 {
 }
 
 h2 {
+  color: $light-text;
   font-size: 30px;
 }
 
@@ -64,6 +71,10 @@ h5 {
 
 h6 {
   font-size: 18px;
+}
+
+small {
+  font-size: 14px;
 }
 
 // Buttons -------------------------------------------------------------------------------------------
