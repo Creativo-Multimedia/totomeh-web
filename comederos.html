@@ -161,12 +161,14 @@
         </section>
     </main>
 
+    <button class="scroll-top-btn d-none">&#10148;</button>
     <div class="bottom" include="./components/Bottom.html"></div>
     <div class="footer" include="./components/Footer.html"></div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <!-- Custom JS -->
-    <script src="../js/index.js"></script>
+    <script src="./js/index.js" type="module"></script>
+    <script src="./js/no-modules.js" nomodule></script> <!-- IE support -->
 </body>
 </html>
