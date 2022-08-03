@@ -1,14 +1,14 @@
-.carousel.slide {
+.carousel.home-img-slide {
     max-height: 550px;
     overflow: hidden;
 }
 
-.carousel.slide .carousel-indicators button {
+.carousel.home-img-slide .carousel-indicators button {
     width: 16px;
     height: 15px;
     background-color: #01010191;
 }
 
-.carousel.slide .carousel-indicators button.active {
+.carousel.home-img-slide .carousel-indicators button.active {
     background-color: #ffffff;
 }

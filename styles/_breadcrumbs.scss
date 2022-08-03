@@ -16,7 +16,11 @@
         }
 
         a {
-            color: $medium-light-text;
+            color: $light-text;
+
+            &:last-child {
+                color: $medium-light-text;
+            }
         }
     }
 }

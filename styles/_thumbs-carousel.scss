@@ -1,0 +1,19 @@
+.products-img-slide {
+    .carousel-inner {
+        border-radius: $border-radius;
+    }
+
+    .carousel-indicators {
+        position: relative;
+        margin-left: 0;
+        margin-right: 0;
+
+        button {
+            width: 120px !important;
+
+            img {
+                border-radius: $border-radius;
+            }
+        }
+    }
+}
