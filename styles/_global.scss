@@ -78,8 +78,7 @@ a {
   color: $primary-color;
 
   &:hover,
-  &:active,
-  &:visited {
+  &:active {
     color: darken($color: $primary-color, $amount: 10);
   }
 }
