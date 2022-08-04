@@ -58,7 +58,10 @@ h4 {
 }
 
 h5 {
-  font-size: 21rem;
+  font-size: 25px;
+  font-family: $secondary-font;
+  font-weight: 400;
+  color: $color-text;
 }
 
 h6 {
