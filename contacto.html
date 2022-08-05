@@ -71,8 +71,52 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-8 mb-5 contact-form">
+                    <div class="col-lg-8 mb-5">
                         <h5>Contáctenos</h5>
+                        <!-- Contact form using formsubmit.co API -->
+                        <form class="contact-form">
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Nombre"
+                                title="Solo letras y espacios en blanco"
+                                pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                                required
+                            />
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Email"
+                                title="Email inválido"
+                                pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                                required
+                            />
+                            <input
+                                type="text"
+                                name="subject"
+                                placeholder="Asunto"
+                                title="El asunto es requerido"
+                                required
+                            />
+                            <textarea
+                                name="message"
+                                cols="50"
+                                rows="5"
+                                placeholder="Mensaje"
+                                title="Su mensaje no debe exceder los 255 caracteres"
+                                data-pattern="^.{1,255}$"
+                                required
+                            ></textarea>
+                            <input type="submit" value="Enviar mensaje" class="btn btn-secondary submit-btn" />
+                            <div class="contact-form-loader none">
+                                <img src="./assets/loader.svg" />
+                                <p>Enviando su mensaje...</p>
+                            </div>
+                            <div class="contact-form-response none">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p>Los datos han sido enviados correctamente.</p>
+                            </div>
+                        </form>
                     </div>
 
                 </div>
