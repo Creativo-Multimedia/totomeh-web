@@ -5,14 +5,14 @@
 
     .carousel-indicators {
         position: relative;
-        margin-left: 0;
-        margin-right: 0;
 
         button {
             width: 120px !important;
+            height: 100%;
 
             img {
                 border-radius: $border-radius;
+                height: 100%;
             }
         }
     }
