@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Creativo-Multimedia/totomeh-web">
-    <img src="./assets/logo.jpg" alt="Logo" height="80">
+    <img src="./logo.jpg" alt="Logo" height="80">
   </a>
 
 <h3 align="center">Totomeh web</h3>
