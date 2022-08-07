@@ -13,6 +13,7 @@
     Static website built with html modules, SASS, Bootstrap and Vanilla Javascript.
     <br />
     Developed by <a href='http://creativo.com.uy/' target='_blank'>Creativo Multimedia</a>
+    <br/>
     <a href="http://totomeh.com.uy/">View online</a>
   </p>
 </div>
@@ -67,6 +68,8 @@ It uses "components" of html to reuse the common code, like Bottom, Footer and H
 ![image](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
 
 ![image](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black)
+
+![image](https://img.shields.io/badge/Adobe%20after%20affects-CF96FD?style=for-the-badge&logo=Adobe%20after%20effects&logoColor=393665)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
