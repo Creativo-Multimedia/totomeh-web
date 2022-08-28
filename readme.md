@@ -85,12 +85,7 @@ It uses "components" of html to reuse the common code, like Bottom, Footer and H
    ```sh
    git clone https://github.com/Creativo-Multimedia/totomeh-web.git
    ```
-2. Go to <a href='https://formsubmit.co/' target='_blank'>formsubmit.co</a> and create an account.
-3. Create a config.js file and add your email recipient
-    ```js
-    export const emailRecipient = 'your@email'
-    ```
-4. Compile SASS into CSS
+2. Compile SASS into CSS
     ```sh
     sass --watch styles/main.scss css/main.css
     ```
